@@ -1,5 +1,7 @@
 # Math2LaTeX
-A open-source tool to convert Handwritten Math to LaTeX code!
+Welcome to LaTeX-OCR, an open-source implementation of a photomath style scan-and-render LaTeX OCR model! We use the power of PyTorch to scan your handwritten math, whether it be on tablet or paper, and convert it to LaTeX code. No more typing out complex equations - just write it down, scan it, and let LaTeX-OCR do the rest.
+
+![image](logo.jpeg)
 ## Samples
 
 ![image](https://github.com/leonlenk/LaTeX_OCR/assets/38673735/6a4c0574-aa68-4c68-a60c-d5ebe6ac46d1)
@@ -63,3 +65,12 @@ Call `python scripts/train_TrOCR.py` with the `--gpu` flag to indicate which GPU
 ## Contributing
 
 Contributions to LaTeX-OCR are welcome! Whether it's bug reports, feature requests, or new code, we appreciate all help.
+
+## License
+
+LaTeX-OCR is licensed under the MIT License. See [LICENSE](LICENSE) for more details.
+
+## Acknowledgements
+This project was originally developed as a course project at UCLA in collaboration with [Leon Lenk](https://github.com/leonlenk), [Artin Kim](https://github.com/artinkim), and [Maxine Wu](https://github.com/maxinewu5). The original repository can be found at [LaTeX-OCR](https://github.com/leonlenk/LaTeX_OCR). Special thanks to Leon for the initial collaboration that laid the foundation for this expanded version.
+
+We thank Professor Bolei Zhou as well as all the members of ACM AI. 
