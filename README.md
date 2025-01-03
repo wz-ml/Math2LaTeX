@@ -1,5 +1,5 @@
 # Math2LaTeX
-Welcome to LaTeX-OCR, an open-source implementation of a photomath style scan-and-render LaTeX OCR model! We use the power of PyTorch to scan your handwritten math, whether it be on tablet or paper, and convert it to LaTeX code. No more typing out complex equations - just write it down, scan it, and let LaTeX-OCR do the rest.
+Welcome to Math2LaTeX, an open-source implementation of a photomath-style scan-and-render LaTeX OCR model! We use the power of PyTorch to scan your handwritten math, whether on tablet or paper and convert it to LaTeX code. No more typing out complex equations - write it down, scan it, and let LaTeX-OCR do the rest.
 
 ![image](logo.jpeg)
 ## Samples
