@@ -35,7 +35,7 @@ class renderedLaTeXDataset(Dataset):
         image = crop_to_formula(image)
         if self.transforms is not None:
             image = self.transforms(image)
-        inputs = self.processor(images = image,  padding = "max_length", return_tensors="pt").to(self.device)
+        inputs = self.processor(images = image,  padding = "max_length", return_tensors="pt")
         for key in inputs:
             inputs[key] = inputs[key].squeeze() # Get rid of batch dimension since the dataloader will batch it for us.
 
@@ -43,7 +43,7 @@ class renderedLaTeXDataset(Dataset):
         caption = renderedLaTeXLabelstr2Formula(self.formulas[formula_idx])
         caption = self.processor.tokenizer.encode(
             caption, return_tensors="pt", padding = "max_length", max_length = 512, truncation = True, # Tweak this
-            ).to(self.device).squeeze()
+            ).squeeze()
         
         return inputs, caption
     

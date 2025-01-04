@@ -4,6 +4,12 @@ __pycache__/
 *$py.class
 
 # Model folder
+formula_images/
+img_data/
+inkML_data/
+rendered_LaTeX/
+models/
+scripts/wandb/
 
 # C extensions
 *.so
