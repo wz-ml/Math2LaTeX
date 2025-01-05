@@ -51,8 +51,8 @@ from tqdm import tqdm, trange
 
 # Hyperparams
 NUM_EPOCHS = 2
-LEARNING_RATE = 1e-5
-BATCH_SIZE = 4 # 10 gigs of Vram -> 4, <5 gigs of vram -> 2
+LEARNING_RATE = 2e-5
+BATCH_SIZE = 8 # 10 gigs of Vram -> 4, <5 gigs of vram -> 2
 SHUFFLE_DATASET = True
 
 set_seed(0)
